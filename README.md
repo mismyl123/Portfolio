@@ -5,7 +5,7 @@ My Professional Portfolio
 
 This project is my own professional portfolio as a web developer. It began as an assignment for Thinkful Software Engineering Immersion program. I will be updating this page frequently as I continue to learn and also adding projects that I've created.
 
-Currently my portfolio is a single page with four sections and a navigation bar at the top that links to each section.
+Currently my portfolio is a single page with an intro with a picture of me, followed by four sections and a navigation bar at the top that links to each section.
 
 Sections
 
@@ -16,7 +16,7 @@ Sections
 
 #Hello Section
 
-This section is a basic welcome message, with a greeting for the visitor, a short summary, and a picture of me.
+This section is a basic welcome message, with a greeting for the visitor and a short summary about me.
 
 #About Me
 
