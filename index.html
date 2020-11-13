@@ -1,65 +1,64 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang = "en">
 
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-	<title>Michelle LaLonde Portfolio</title>
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet"
-		type="text/css" />
-
-	<!-- stylesheet-->
-
+	<title>Michelle LaLonde</title>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
 	<link href="style.css" rel="stylesheet" type="text/css" />
-
 </head>
 
 <body>
 	<header>
 
-		<div class="header">
-			<a href="#default" class="logo">Michelle's Portfolio</a>
+		<h1>Michelle LaLonde</h1>
+		<nav>
+			<ul>
+		<li><a href="#hello">Hello</a></li>
 
-			<div class="header-right">
+		<li><a href="#about">About</a></li>
 
-				<a href="#hello">Hello</a>
+		<li><a href="#projects">Projects</a></li>
 
-				<a href="#about">About</a>
-
-				<a href="#projects">Projects</a>
-
-				<a href="#contact">Contact</a>
-
-			</div>
-		</div>
+		<li><a href="#contact">Contact</a></li>
+		</ul>
+		</nav>
 
 	</header>
 
-	<section>
-		<div class="box">
+	<main>
+		<div>
+		  <article>
+			<!--First Group divided into 2 items: img and p-->
+			<section class = "intro">
+		  <div class="group">
+			  <div class="item">
+				<!--Picture of me-->
+				<div id = "image">
+				<img  id = "portrait" src = "images/newpic.png" width = "500" alt = "self-portrait">
+				</div>
+			  </div>
+			  <div class="item">
+			  
+				<!--Introduction-->
+				<h2> Thanks for coming to my page! </h2>
+				<p> I created this portfolio with Javascript,</p>
+				<p> HTML, CSS using skills I'm learning in this</p>
+				<p> amazing program by <a class="link" target="_blank" href="https://www.thinkful.com/">Thinkful</a>. As I
+					hone my skills,</p>
+				<p> I will be updating this page with new projects and more!</p>
+				</p>
+			  </div>
+			</div>
+		   </section>
 
-			<h3>Michelle LaLonde</h3>
-			<h2>Student at Thinkful!!</h2>
-		</div>
-
-		<img class="bioImage" src="newpic.png" alt="self-portrait">
-
-
-
-		<h2> Welcome to my first project!! I am learning everything about Javascript, HTML, CSS, JQuery, and more in
-			this amazing program by <a class="link" target="_blank" href="https://www.thinkful.com/">Thinkful</a>. As I
-			hone my skills, this page will certainly be updated frequently! </h2>
-
-	</section>
-
-
-
+	
 	<hr>
 
 
-
 	<!-- Intro Section-->
-
 
 	<section id="hello" class="hello">
 
@@ -71,10 +70,11 @@
 
 			<div>
 
-				<p>I am enrolled at Thinkful, learning everything related to creating webpages: the programming
-					languages, the systems involved, front-end, and back-end! I am new to this (not counting a few
-					classes in college many years ago!) and am learning so much every day!! I am very excited about this
-					opportunity and what the future holds for me in this wonderful career choice!!
+				<p>I am enrolled at Thinkful in the Engineering Immersion Program.</p>
+				<p>I have learned Javascript, HTML, CSS, jQuery, React, and more!</p>
+				<p>I am very excited about this opportunity and what the future holds</p>
+				<p>for me in this wonderful career choice!!  Take a look at my porfolio, </p>
+				<p>LinkedIn, and Github pages, and contact me for any web development needs!</p>
 				</p>
 			</div>
 		</div>
@@ -88,39 +88,35 @@
 
 	<!-- About Me Section -->
 
-	<section id="about" class="about">
-
+	
+	   <div class = "middle">
+          
+		<section id = "about" class="about"></section>
 		<h3>About Me</h3>
+		<h2>Here are three things to know about me:</h2>
 
 		<div class="about-content">
 			<div>
 
-				<h2>Here are three things to know about me:</h2>
+
+				<p>1)  I currently live in Orlando, FL, but I have lived all over the USA: North Carolina, South Carolina,
+					California, New Mexico, Georgia, and New York. I also lived in Costa Rica for a year when I was a child,
+				    but I don't remember much about that! The pictures are amazing, however, and I would love to return
+					for a visit.</p>
 
 
+				<p>2)  I have worked in many career fields: restaurant industry, office manager for a thriving real estate
+					company(where I developed a passion for graphic design), and even a poker champion! I was also a jewelry
+					maker and designer (my main focus was creating Mala Necklaces, but I also created custom gifts such as 
+					bridesmaid presents).</p>
 
-				<p>I currently live in Orlando, FL, but I have lived all over the USA: North Carolina, South Carolina,
-					California, New Mexico, Georgia, and New York. I also lived in Costa Rica for a year when I was
-					three years old,
-					but I don't remember much about that! The pictures are amazing, however, and I would love to return
-					for a
-					visit.</p>
-
-
-				<p>I have worked in many career fields: restaurant industry, office manager for a thriving real estate
-					company(I
-					learned marketing and graphic design skills), online poker champion. I was also a jewelry maker and
-					designer (the main focus was creating mala
-					necklaces, but also custom gifts such as bridesmaid presents).</p>
-
-				<p> I was in a random accident four years ago that left me unable to walk without a cane, and not for
-					long distances. This accident changed my life in so many ways! After trying to turn my passion
-					(making beautiful jewelry) into a career, I have decided to study software engineering. I still love
-					designing and making jewelry as a hobby, but the cost of materials/time spent did not equate into a
-					viable pay. I also can't return to the restaurant industry because of my leg, but even though I
-					enjoyed the challenging, fast-paced aspect of the job and made many good friends, I never wanted to
-					grow old/retire from that career. There is a silver lining to everything in life, and my accident
-					has made me motivated and very strong.</p>
+				<p> 3)  I was in a random accident in 2016 that left me unable to walk without a cane, and lots of pain. This 
+					accident changed my life in so many ways! After trying to turn my passion (making beautiful jewelry) into 
+					a career, I have decided to study software engineering. I still love designing and making jewelry as a hobby,
+					but the cost of materials/time spent did not equate into a viable pay. I also can't return to the restaurant 
+					industry because of my leg, but even though I enjoyed the challenging, fast-paced aspect of the job and made 
+					many good friends, I never wanted to grow old/retire from that career. There is a silver lining to everything 
+				    in life, and my accident has made me so motivated, hungry, strong, and focused.</p>
 
 				<!-- bullet lists about me-->
 
@@ -154,67 +150,78 @@
 
 	<!-- Project Section-->
 
+	<div class="projects">
+		<section id="projects" class id="project">
+			<h3>Projects</h3>
+		
 
-	<h3>Projects</h3>
+		  <div class="group">
+			<div class="item">
+			  <div>
+				<h2>Project #1</h2>               
+			  </div>
+			  
+			  <div>
+			   <img id="project-1" src="images/desk.jpg" alt="thumbnail of desk with plant">
+			  </div>
+			 
+			  <div class="center">
+			   <a href="#">Link to project</a>
+			 </div>
 
+			  <div class="center">
+				<p>This is a placeholder for my future favorite projects, when I update they will be <a href="https://github.com/mismyl123">here in my Github.</a></p>
+			  </div>
 
-	<section id="projects" class="projects">
+			</div>
+			<div class="item">
+			  <div>
+				<h2>Project #2</h2>
+			  </div>
 
+			  <div>
+			   <img id="project-2" src="images/office.jpg" alt="thumbnail of inviting workspace">
+			  </div>
+			  
+			  <div class="center">
+			   <a href="#">Link to project</a>
+			 </div>
 
-		<h2>Project Title- Stay Tuned!</h2>
+			  <div class="center">
+			   <p>This is a placeholder for my future favorite projects, when I update they will be <a href="https://github.com/mismyl123">here in my Github.</a></p>
+			 </div>
 
+			</div>
+			<div class="item">
+			  <div>
+				<h2>Project #3</h2>
+			  </div>
 
-		<div>
-			<a href="https://github.com/mismyl123" target="blank">
-				Github
-			</a>
+			  <div>
+			   <img id="project-3" src="images/computer.jpg" alt="thumbnail of desk with computer">
+			  </div>
+			  
+			  <div class="center">
+				<a href="#">Link to project</a>
+			  </div>
 
-			<a href="https://github.com/mismyl123" target="blank">
-				Live Site
-			</a>
+			  <div class="center">
+			   <p>This is a placeholder for my future favorite projects, when I update they will be <a href="https://github.com/mismyl123">here in my Github.</a></p>
+			 </div>
 
-			<img src="projectPlaceholder.jpg" alt="Placeholder Image" style="width:250px; height:250px;">
-		</div>
+			</div>
 
-		<h2>Project Title- Stay Tuned!</h2>
+		  </div>
 
-
-		<div>
-			<a href="https://github.com/mismyl123" target="blank">
-				Github
-			</a>
-
-			<a href="https://github.com/mismyl123" target="blank">
-				Live Site
-			</a>
-
-			<img src="projectPlaceholder.jpg" alt="Placeholder Image" style="width:250px; height:250px;">
-		</div>
-
-		<h2>Project Title- Stay Tuned!</h2>
-
-
-		<div>
-			<a href="https://github.com/mismyl123" target="blank">
-				Github
-			</a>
-
-			<a href="https://github.com/mismyl123" target="blank">
-				Live Site
-			</a>
-
-			<img src="projectPlaceholder.jpg" alt="Placeholder Image" style="width:250px; height:250px;">
-
-		</div>
-	</section>
+		</section>
+	  </div>
 
 	<hr>
 
-	<section id="contact" class="contact">
-
-		<h3>Contact Me</h3>
-
-
+	<div class = "contact">
+		<section id = "contact" class id="contact">
+			<h3>Contact Me</h3>
+		
 
 		<ul>
 			<li><a href="https://www.linkedin.com/in/michelle-lalonde/">LinkedIn</a></li>
@@ -222,7 +229,7 @@
 			<li><a href="mailto:mlalonde309@gmail.com">mlalonde309@gmail.com</a></li>
 		</ul>
 
-		<div class="group">
+		<div class="contact-form">
 			<div class="item-double">
 				<form action="https://formspree.io/mlalonde309@gmail.com" method="POST">
 					<label for="user-name">Name:</label>
@@ -239,14 +246,18 @@
 
 				</form>
 
-				<img src="mapOrlando.jpg" alt="Map of Orlando, FL">
-			</div>
+				
+				<div>
+					<img id = "contact" src = "mapOrlando.jpg"  alt = "Map of Orlando">
+					</div>
+				  </div>
+				  
 		</div>
 	</section>
 
 
 	<footer>
-		<p class="center-text">Created by Michelle LaLonde</p>
+		<h4>Created by Michelle LaLonde</h4>
 	</footer>
 
 </body>
