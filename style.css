@@ -185,6 +185,8 @@
   }
   .contact img {
 	border: solid #800080 10px;
+	width: 100%;
+	align: center;
   
   }
   /*Projects*/
